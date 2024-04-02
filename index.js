@@ -11,5 +11,6 @@ for (let i = 0; i < stringArray.length; i++) {
   } else {
     myObj[currentLetter] = 1;
   }
-}
+};
+
 console.table(myObj);
